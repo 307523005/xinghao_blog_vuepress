@@ -1,0 +1,17 @@
+{
+  "name": "xinghao_blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "dev_t": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run dev\n"
+  },
+  "repository": "https://gitee.com/niuhao307523005/xinghao_blog.git",
+  "author": "兴浩 <niuhao.nh@digital-engine.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
