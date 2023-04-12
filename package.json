@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & vuepress dev docs",
     "build": "vuepress build docs",
     "dev_t": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run dev\n"
   },

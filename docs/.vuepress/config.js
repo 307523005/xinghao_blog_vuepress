@@ -6,6 +6,7 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
+   base: '/xinghao_blog_vuepress/', // 这是部署到github相关的配置
  themeConfig: {
     logo: 'https://www.vuepress.cn/hero.png',
      nav: [
