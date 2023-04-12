@@ -21,5 +21,4 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:307523005/xinghao_blog_vuepress.git master:pages
-
 cd -
